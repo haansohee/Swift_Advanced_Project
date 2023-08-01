@@ -140,6 +140,14 @@ Packages
 xcuserdata
 *.xcodeproj
 
+### Frameworks ###
+Frameworks
+
+### plist ###
+*.plist
+
+### Folder ###
+LocalNetwork.swift
 
 ### SwiftPM ###
 
