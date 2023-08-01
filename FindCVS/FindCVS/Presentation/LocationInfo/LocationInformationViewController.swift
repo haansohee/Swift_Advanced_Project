@@ -19,7 +19,7 @@ class LocationInformationViewController: UIViewController {
     let currentLocationButton = UIButton()
     let detailList = UITableView()
     let detailListBackgroundView = DetailListBackgroundView()
-    let viewModel = LocationInformationViewModel()
+    let viewModel = LocationInformationViewModel(model: LocationInformationModel())
     
     override func viewDidLoad() {
         super.viewDidLoad()
