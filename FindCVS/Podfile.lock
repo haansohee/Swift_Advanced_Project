@@ -1,0 +1,16 @@
+PODS:
+  - Stubber (1.5.3)
+
+DEPENDENCIES:
+  - Stubber
+
+SPEC REPOS:
+  trunk:
+    - Stubber
+
+SPEC CHECKSUMS:
+  Stubber: 3ea4080870feeaf5b1637314a92245eef9b8c8e7
+
+PODFILE CHECKSUM: 9923be1cbb8ed5277cbeffb8da96a14c9ee7dd18
+
+COCOAPODS: 1.12.1
