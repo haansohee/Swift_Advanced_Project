@@ -146,8 +146,10 @@ Frameworks
 ### plist ###
 *.plist
 
-### Folder ###
+### File ###
+
 LocalNetwork.swift
+CenterNetwork.swift
 
 ### SwiftPM ###
 
