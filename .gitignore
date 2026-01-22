@@ -150,6 +150,7 @@ Frameworks
 
 LocalNetwork.swift
 CenterNetwork.swift
+SecretKey.swift
 
 ### SwiftPM ###
 
