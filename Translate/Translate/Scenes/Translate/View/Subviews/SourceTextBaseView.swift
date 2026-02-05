@@ -9,7 +9,7 @@ import SwiftUI
 import Translation
 
 struct SourceTextBaseView: View {
-    @StateObject var translateViewModel = TranslateViewModel()
+    @ObservedObject var translateViewModel: TranslateViewModel
     @State private var showModal = false
     @State private var inputText: String = ""
     @State private var configuration: TranslationSession.Configuration?

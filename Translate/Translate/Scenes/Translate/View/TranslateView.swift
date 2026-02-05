@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct TranslateView: View {
+    @StateObject var translateViewModel = TranslateViewModel()
     var body: some View {
         ZStack {
             Color(UIColor.secondarySystemBackground)
                 .ignoresSafeArea()
             VStack(spacing: 16) {
-                LanguageButtonView()
-                SourceTextBaseView()
+                LanguageButtonView(translateViewModel: translateViewModel)
+                SourceTextBaseView(translateViewModel: translateViewModel)
             }
             .padding()
         }

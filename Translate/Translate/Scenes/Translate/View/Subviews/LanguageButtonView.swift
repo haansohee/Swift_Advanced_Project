@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LanguageButtonView: View {
-    @StateObject private var translateViewModel = TranslateViewModel()
+    @ObservedObject var translateViewModel: TranslateViewModel
     @State private var showingSourceLanguages = false
     @State private var showingTargetLanguages = false
     
@@ -59,6 +59,6 @@ struct LanguageButtonView: View {
     }
 }
 
-#Preview {
-    LanguageButtonView()
-}
+//#Preview {
+//    LanguageButtonView()
+//}
